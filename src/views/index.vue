@@ -1,14 +1,18 @@
 <template>
-  <div id="app">
+  <div id="index">
     <router-view />
+    <Footer></Footer>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
+import Footer from '@/components/footer.vue'
+
 export default {
-  name: 'app',
+  name: 'index',
   components: {
+    Footer
   },
   methods: {
 
